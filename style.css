@@ -48,6 +48,7 @@
 #wrapper{
    width: 100vw;
    height: 100vh;
+
    color: var(--colorLight2);
    background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);    
 }
@@ -75,6 +76,10 @@ h1{
 }
 
 .weather-container{
+    width: 90%;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,7 +169,7 @@ h1{
     object-fit: contain;
 }
 .parameter-container{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     gap: 10px 20px;
     justify-content: center;
