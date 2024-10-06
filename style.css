@@ -76,8 +76,7 @@ h1{
 }
 
 .weather-container{
-    width: 90%;
-    max-width: 550px;
+    max-width: 750px;
     margin: 0 auto;
     padding: 40px;
     display: flex;
@@ -85,7 +84,6 @@ h1{
     align-items: center;
     justify-content: center;
     margin-block: 4rem;
-    /* border: solid yellow; */
 }
 .btn{
     all:unset;
@@ -138,7 +136,7 @@ h1{
 }
 .user-info-container{
     display:none;
-    width: 600px;
+    width: 90%;
     /* border: solid red; */
 }
 .user-info-container.active{
@@ -169,7 +167,7 @@ h1{
     object-fit: contain;
 }
 .parameter-container{
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     gap: 10px 20px;
     justify-content: center;
